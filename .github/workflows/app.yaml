@@ -1,0 +1,13 @@
+name: cicd pipe line
+
+on: push
+
+jobs: 
+  build_job:
+    runs-on: windows-latest
+    steps:
+      - name: code checkout
+        uses: actions/checkout@v4
+    
+
+
